@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./build",
+    // "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    // "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es6", "dom", "esnext.asynciterable"]
+  },
+  "include": ["./**/*.ts"]
+}
